@@ -1,0 +1,38 @@
+Book writing -- 01-12-2023
+
+2.5	Financial functions
+
+Financial functions in DAX are used in formulas that perform financial calculations, such as net present value and rate of return. 
+
+https://learn.microsoft.com/en-us/dax/financial-functions-dax
+
+ACCRINT	Returns the accrued interest for a security that pays periodic interest.
+ACCRINTM	Returns the accrued interest for a security that pays interest at maturity
+DB	Returns the depreciation of an asset for a specific period using the fixed decilining balance method
+DDB	Returns the depreciation of an asset for a specific period using the double decilining balance method or some other method you specify
+PMT	Calculates the payment for a loan based on constant payments and a constant interest rate.
+PV	Calculates the present value of a loan or an investment, based on a constant interest rate.
+YIELD	Returns the yield on a security that pays periodic interest.
+
+	
+2.6	Table manipulation functions
+
+These functions return a table or manipulate existing tables.
+
+https://learn.microsoft.com/en-us/dax/table-manipulation-functions-dax
+
+Some of these functions are given below in the Tab.2.6:
+
+ADDCOLUMNS	Adds calculated columns to the given table or table expression.
+ADDMISSINGITEMS	Adds combination of items from multiple columns to a table if they do not already exist.
+DATATABLE	Provides a mechanism for declaring an inline set of data values.
+ROLLUP	Modifies the behavior of SUMMARIZE by adding rollup rows to the result on columns defined by the groupBy_columnName parameter.
+SELECTCOLUMNS	Adds calculated columns to the given table or table expression.
+SUMMARIZE	Returns a summary table for the requested totals over a set of groups.
+SUMMARIZECOLUMNS	Returns a summary table over a set of groups
+VALUES	Returns a one-column table that contains the distinct values from the specified table or column.
+
+Tab.2.4. Filter Functions (Partial list)
+Tab.2.5. Financial Functions (Partial list)
+Tab.2.6. Table Manipulation Functions (Partial list)
+

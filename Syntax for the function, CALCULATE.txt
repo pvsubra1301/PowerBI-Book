@@ -1,0 +1,12 @@
+Syntax for the function, CALCULATE
+
+CALCULATE(<expression>[, <filter1>, [, <filter2>,[,  ......]]])
+
+where expression is the expression to be evaluated, filter1, filter2 (optional) Boolean expressions or table expressions that defines filters, or filter modifier functions.
+
+West Revenue =
+CALCULATE(
+    SUM(sales_by_Region[Sales Amount]),
+    'sales_by_Region'[Region] = "West"
+)
+
